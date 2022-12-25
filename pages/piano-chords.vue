@@ -1,8 +1,23 @@
 <script lang="ts" setup>
+import { CHORDS_V2, SUFFIXES_V2 } from '@/constants/chords'
 </script>
 
 <template>
-  <div>
-    <h1>Piano</h1>
+  <div class="pt-12 pb-16">
+    <div class="text-center mb-12">
+      <h1 class="text-6xl">
+        Piano Chords
+      </h1>
+    </div>
+    <div class="w-full">
+      <div v-for="chord in CHORDS_V2" :key="chord" class="w-full flex mb-6">
+        <div v-for="suffix in SUFFIXES_V2" :key="suffix" class="flex-grow text-center px-2">
+          <p class="mb-4">
+            {{ chord }}{{ suffix }}
+          </p>
+          <img :src="`/imgs/piano-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.png`" class="w-full">
+        </div>
+      </div>
+    </div>
   </div>
 </template>
