@@ -12,5 +12,8 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.30.0",
     "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0"
   }
 }
