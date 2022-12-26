@@ -15,7 +15,7 @@ import { CHORDS, SUFFIXES } from '@/constants/chords'
           <p>
             {{ chord }}{{ suffix }}
           </p>
-          <img :src="`/imgs/ukulele-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.svg`" class="w-full">
+          <img :src="`/imgs/ukulele-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.svg`" class="w-full" loading="lazy">
         </div>
       </div>
     </div>

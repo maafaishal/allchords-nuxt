@@ -15,7 +15,7 @@ import { CHORDS_V2, SUFFIXES_V2 } from '@/constants/chords'
           <p class="mb-4">
             {{ chord }}{{ suffix }}
           </p>
-          <img :src="`/imgs/piano-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.png`" class="w-full">
+          <img :src="`/imgs/piano-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.png`" class="w-full" loading="lazy">
         </div>
       </div>
     </div>
