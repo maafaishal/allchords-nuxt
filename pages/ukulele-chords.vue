@@ -11,7 +11,7 @@ import { CHORDS, SUFFIXES } from '@/constants/chords'
     </div>
     <div class="w-full">
       <div v-for="chord in CHORDS" :key="chord" class="w-full flex mb-6">
-        <div v-for="suffix in SUFFIXES" :key="suffix" class="flex-grow text-center">
+        <div v-for="suffix in SUFFIXES" :key="suffix" class="flex-grow text-center basis-1/6">
           <p>
             {{ chord }}{{ suffix }}
           </p>
