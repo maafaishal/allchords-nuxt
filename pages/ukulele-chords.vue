@@ -1,5 +1,11 @@
 <script lang="ts" setup>
 import { CHORDS, SUFFIXES } from '@/constants/chords'
+const { getSEO } = useSEO()
+const { title } = getSEO({ title: 'Ukulele Chords' })
+
+useHead({
+  title
+})
 </script>
 
 <template>
