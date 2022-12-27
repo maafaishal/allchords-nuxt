@@ -6,7 +6,7 @@
     <div class="pt-6 pb-4 container mx-auto flex justify-between items-center">
       <div class="h-[52px]">
         <NuxtLink to="/">
-          <img src="@/assets/logo.svg" class="h-full">
+          <NuxtImg src="imgs/logo.svg" class="h-full" />
         </NuxtLink>
       </div>
       <div class="flex">

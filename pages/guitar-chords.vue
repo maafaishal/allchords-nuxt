@@ -19,7 +19,7 @@ useHead({
       <div v-for="chord in CHORDS_V2" :key="chord" class="w-full flex mb-6">
         <div v-for="suffix in SUFFIXES" :key="suffix" class="flex-grow text-center basis-1/6">
           <p>{{ chord }}{{ suffix }}</p>
-          <img :src="`/imgs/guitar-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.svg`" class="w-full" loading="lazy">
+          <NuxtImg :src="`/imgs/guitar-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.svg`" class="w-full" loading="lazy" />
         </div>
       </div>
     </div>

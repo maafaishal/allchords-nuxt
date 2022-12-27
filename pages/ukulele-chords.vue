@@ -21,7 +21,7 @@ useHead({
           <p>
             {{ chord }}{{ suffix }}
           </p>
-          <img :src="`/imgs/ukulele-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.svg`" class="w-full" loading="lazy">
+          <NuxtImg :src="`/imgs/ukulele-chords/${chord.includes('#') ? chord.replace('#', '-sharp') : chord}/${suffix}.svg`" class="w-full" loading="lazy" />
         </div>
       </div>
     </div>
