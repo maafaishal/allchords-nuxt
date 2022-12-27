@@ -16,8 +16,8 @@ useHead({
       </h1>
     </div>
     <div class="w-full">
-      <div v-for="chord in CHORDS" :key="chord" class="w-full flex mb-6">
-        <div v-for="suffix in SUFFIXES" :key="suffix" class="flex-grow text-center basis-1/6">
+      <div v-for="chord in CHORDS" :key="chord" class="w-full grid grid-cols-2 md:grid-cols-6 mb-6">
+        <div v-for="suffix in SUFFIXES" :key="suffix" class="text-center">
           <p>
             {{ chord }}{{ suffix }}
           </p>
