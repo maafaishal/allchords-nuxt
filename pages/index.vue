@@ -3,7 +3,7 @@
 
 <template>
   <div class="pt-16 pb-24">
-    <h1 class="text-5xl text-center mb-6">
+    <h1 class="text-5xl text-center mb-6 font-medium">
       Welcome to All Chords
     </h1>
     <p class="text-xl text-center mb-16">
@@ -14,7 +14,7 @@
         <NuxtLink to="/guitar-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="mdi:guitar-electric" class="text-8xl" />
-            <h1 class="text-2xl font-medium mt-4">
+            <h1 class="text-2xl mt-4">
               Guitar chords
             </h1>
           </div>
@@ -24,7 +24,7 @@
         <NuxtLink to="/piano-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="icon-park-solid:piano" class="text-8xl" />
-            <h1 class="text-2xl font-medium mt-4">
+            <h1 class="text-2xl mt-4">
               Piano chords
             </h1>
           </div>
@@ -34,7 +34,7 @@
         <NuxtLink to="/ukulele-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="fluent:guitar-16-filled" class="text-8xl" />
-            <h1 class="text-2xl font-medium mt-4">
+            <h1 class="text-2xl mt-4">
               Ukulele chords
             </h1>
           </div>
@@ -47,7 +47,7 @@
         <NuxtLink to="/guitar-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="mdi:guitar-electric" class="text-8xl" />
-            <h1 class="text-2xl font-medium mt-4">
+            <h1 class="text-2xl mt-4">
               Guitar chords
             </h1>
           </div>
@@ -57,7 +57,7 @@
         <NuxtLink to="/piano-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="icon-park-solid:piano" class="text-8xl" />
-            <h1 class="text-2xl font-medium mt-4">
+            <h1 class="text-2xl mt-4">
               Piano chords
             </h1>
           </div>
@@ -67,7 +67,7 @@
         <NuxtLink to="/ukulele-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="fluent:guitar-16-filled" class="text-8xl" />
-            <h1 class="text-2xl font-medium mt-4">
+            <h1 class="text-2xl mt-4">
               Ukulele chords
             </h1>
           </div>

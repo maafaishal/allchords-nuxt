@@ -11,22 +11,22 @@
       </div>
       <div class="hidden md:flex">
         <NuxtLink to="/">
-          <div class="px-8 py-3.5 rounded-md font-medium ml-4 bg-red-200 hover:bg-red-500 transition-colors">
+          <div class="relative px-8 py-3.5 rounded-md font-medium ml-4 bg-red-100 hover:bg-red-500 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-red-500 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
             Home
           </div>
         </NuxtLink>
         <NuxtLink to="/guitar-chords">
-          <div class="px-8 py-3.5 rounded-md font-medium ml-4 bg-green-200 hover:bg-green-500 transition-colors">
+          <div class="relative px-8 py-3.5 rounded-md font-medium ml-4 bg-orange-100 hover:bg-orange-500 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-orange-500 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
             Guitar
           </div>
         </NuxtLink>
         <NuxtLink to="/piano-chords">
-          <div class="px-8 py-3.5 rounded-md font-medium ml-4 bg-blue-200 hover:bg-blue-500 transition-colors">
+          <div class="relative px-8 py-3.5 rounded-md font-medium ml-4 bg-green-100 hover:bg-green-500 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-green-500 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
             Piano
           </div>
         </NuxtLink>
         <NuxtLink to="/ukulele-chords">
-          <div class="px-8 py-3.5 rounded-md font-medium ml-4 bg-purple-200 hover:bg-purple-500 transition-colors">
+          <div class="relative px-8 py-3.5 rounded-md font-medium ml-4 bg-blue-100 hover:bg-blue-500 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-blue-500 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
             Ukulele
           </div>
         </NuxtLink>
