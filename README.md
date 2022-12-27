@@ -6,6 +6,13 @@
 
 <https://allchords.vercel.app/>
 
+<img alt="All chords screenshot" src="https://user-images.githubusercontent.com/20511839/209665166-1af6e7e7-ad5f-4746-ae5c-d8acab50b618.png" width="480" />
+
+## Performance Score
+<img width="480" alt="All chords desktop performance score" src="https://user-images.githubusercontent.com/20511839/209665326-69c6d574-279a-43d9-8ba1-804f37a1eded.png">
+
+Source: https://pagespeed.web.dev/
+
 ## Tech Stack
 
 ![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
