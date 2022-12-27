@@ -10,7 +10,7 @@
       A collection of Guitar, Piano, and Ukulele chords
     </p>
     <div class="grid lg:hidden grid-cols-1 gap-4 w-full">
-      <div class="py-4  bg-gray-100  ">
+      <div class="relative py-4  bg-yellow-100 flex-grow mx-2 hover:bg-yellow-400 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-yellow-400 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
         <NuxtLink to="/guitar-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="mdi:guitar-electric" class="text-8xl" />
@@ -20,7 +20,7 @@
           </div>
         </NuxtLink>
       </div>
-      <div class="py-4  bg-gray-100  ">
+      <div class="relative py-4  bg-green-100 flex-grow mx-2 hover:bg-green-400 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-green-400 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
         <NuxtLink to="/piano-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="icon-park-solid:piano" class="text-8xl" />
@@ -30,7 +30,7 @@
           </div>
         </NuxtLink>
       </div>
-      <div class="py-4 bg-gray-100">
+      <div class="relative py-4 bg-blue-100 flex-grow mx-2 hover:bg-blue-400 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-blue-400 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
         <NuxtLink to="/ukulele-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="fluent:guitar-16-filled" class="text-8xl" />
@@ -43,9 +43,9 @@
     </div>
     <!-- Desktop Component -->
     <div class="hidden lg:flex">
-      <div class="py-4  bg-gray-100 flex-grow mx-2 ">
+      <div class="relative py-4  bg-yellow-100 flex-grow mx-2 hover:bg-yellow-400 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-yellow-400 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
         <NuxtLink to="/guitar-chords">
-          <div class="flex justify-center items-center flex-col">
+          <div class="flex justify-center items-center flex-col ">
             <Icon name="mdi:guitar-electric" class="text-8xl" />
             <h1 class="text-2xl mt-4">
               Guitar chords
@@ -53,7 +53,7 @@
           </div>
         </NuxtLink>
       </div>
-      <div class="py-4  bg-gray-100 flex-grow mx-2 ">
+      <div class="relative py-4  bg-green-100 flex-grow mx-2 hover:bg-green-400 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-green-400 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
         <NuxtLink to="/piano-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="icon-park-solid:piano" class="text-8xl" />
@@ -63,7 +63,7 @@
           </div>
         </NuxtLink>
       </div>
-      <div class="py-4 bg-gray-100 flex-grow mx-2 =">
+      <div class="relative py-4 bg-blue-100 flex-grow mx-2 hover:bg-blue-400 hover:bg-opacity-80 after:bg-opacity-80 transition-colors after:bg-blue-400 after:w-full after:h-[5px] after:absolute after:left-0 after:bottom-0 after:rounded">
         <NuxtLink to="/ukulele-chords">
           <div class="flex justify-center items-center flex-col">
             <Icon name="fluent:guitar-16-filled" class="text-8xl" />
