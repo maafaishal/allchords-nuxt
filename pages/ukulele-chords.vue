@@ -4,7 +4,11 @@ const { getSEO } = useSEO()
 const { title } = getSEO({ title: 'Ukulele Chords' })
 
 useHead({
-  title
+  title,
+  meta: [{
+    name: 'description',
+    content: 'A collection of ukulele chords'
+  }]
 })
 </script>
 
