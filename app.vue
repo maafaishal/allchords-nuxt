@@ -3,7 +3,10 @@ const { getSEO } = useSEO()
 const { title } = getSEO()
 
 useHead({
-  title
+  title,
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+  ]
 })
 </script>
 
