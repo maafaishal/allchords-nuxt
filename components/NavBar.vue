@@ -4,12 +4,12 @@
 <template>
   <header class="border-b">
     <div class="pt-6 pb-4 container mx-auto flex justify-between items-center">
-      <div class="h-[52px]">
+      <div class="h-[52px] mx-auto md:mx-0">
         <NuxtLink to="/">
           <NuxtImg src="imgs/logo.svg" class="h-full" />
         </NuxtLink>
       </div>
-      <div class="flex">
+      <div class="hidden md:flex">
         <NuxtLink to="/">
           <div class="px-8 py-3.5 rounded-md font-medium ml-4 bg-red-200 hover:bg-red-500 transition-colors">
             Home
